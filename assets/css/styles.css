@@ -354,3 +354,17 @@ img {
     align-content: center;
   }
 }
+.myname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0;
+  transition: color 0.4s, letter-spacing 0.4s;
+}
+.myname:hover {
+  color: var(--first-color);
+  letter-spacing: 2px;
+}
